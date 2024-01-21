@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "this is where i practice frontend master course",
+  "main": "index.js",
+  "bin": {
+    "trylow": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Trilochan Aryal",
+  "license": "ISC",
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.32"
+  }
+}
