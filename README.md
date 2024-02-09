@@ -57,6 +57,12 @@ ChabiGhar is a command-line tool for managing passwords. Here are some basic com
    ```
    Retrieve a previously saved password. If a heading is provided, it will retrieve the password associated with that heading, e.g., `chabighar retrieve fb` to retrieve the Facebook password.
 
+3. **Generate Password:**
+   ```bash
+   chabighar generate
+   ```
+   Generate a random password with default length and complexity settings.
+
 ## Contributing
 
 If you'd like to contribute to ChabiGhar, feel free to submit issues or pull requests on the [GitHub repository](https://github.com/your-username/ChabiGhar). Your feedback and contributions are highly appreciated!
@@ -67,6 +73,5 @@ If you'd like to contribute to ChabiGhar, feel free to submit issues or pull req
 - Implement functionality to display a list of saved passwords and allow the user to choose which one to retrieve.
 - Implement functionality to save passwords on the web and provide functions to view, copy, and update passwords.
 - Add beautifying tools like chalk for a better CLI interface.
-- Write developer TODOs in proper format within the project files.
-
-Feel free to adjust or expand upon this further as needed!
+  
+Feel free to adjust the instructions or add more details as needed!
