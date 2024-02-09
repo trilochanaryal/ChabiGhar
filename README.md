@@ -1,27 +1,24 @@
-Certainly! I've updated the README to reflect that TryLow is a CLI tool. Additionally, I've included information on how to use the CLI.
-
-```markdown
-# TryLow - Node.js Password Manager
+# ChabiGhar - Node.js Password Manager CLI
 
 ## Overview
 
-Welcome to TryLow, a simple and secure password manager CLI tool built with Node.js. This project is part of the Frontend Master course on Node.js, and it focuses on creating a password manager that securely stores and retrieves passwords using the AES 256 algorithm.
+Welcome to ChabiGhar, a simple and secure password manager CLI tool built with Node.js. This project is part of the Frontend Master course on Node.js, and it focuses on creating a password manager that securely stores and retrieves passwords using the AES 256 algorithm.
 
 ## Key Features
 
-- **AES 256 Encryption:** TryLow employs the robust AES 256 algorithm for encrypting and decrypting passwords, ensuring strong security measures.
+- **AES 256 Encryption:** ChabiGhar employs the robust AES 256 algorithm for encrypting and decrypting passwords, ensuring strong security measures.
   
 - **Initialization Vector (IV) Buffer:** The implementation utilizes IV buffers to add an additional layer of security to the encryption process, making it more resistant to certain types of attacks.
 
-- **Password Storage:** TryLow securely stores passwords, allowing users to save and retrieve their credentials with confidence.
+- **Password Storage:** ChabiGhar securely stores passwords, allowing users to save and retrieve their credentials with confidence.
 
 ## Getting Started
 
-To get started with TryLow, follow these steps:
+To get started with ChabiGhar, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/trylow10/PasswordxManager/
+   git clone https://github.com/your-username/ChabiGhar/
    ```
 
 2. **Install Dependencies:**
@@ -30,7 +27,7 @@ To get started with TryLow, follow these steps:
    ```
 
 3. **Generate Encryption Key:**
-   Before using TryLow, generate a strong encryption key and place it in the `helper` folder. This key will be used for encrypting and decrypting passwords.
+   Before using ChabiGhar, generate a strong encryption key and place it in the `helper` folder. This key will be used for encrypting and decrypting passwords.
    
    ```javascript
    // helper/key.js
@@ -46,17 +43,35 @@ To get started with TryLow, follow these steps:
 
 ## Usage
 
-TryLow is a command-line tool for managing passwords. Here are some basic commands:
+ChabiGhar is a command-line tool for managing passwords. Here are some basic commands:
 
 1. **Save Password:**
    ```bash
-   trylow gen pass
+   chabighar save
    ```
+   Save a password with a specified heading, e.g., `chabighar save fb` to save a Facebook password.
+
 2. **Retrieve Password:**
    ```bash
-   trylow prev pass
+   chabighar retrieve
    ```
+   Retrieve a previously saved password. If a heading is provided, it will retrieve the password associated with that heading, e.g., `chabighar retrieve fb` to retrieve the Facebook password.
+
+3. **Generate Password:**
+   ```bash
+   chabighar generate
+   ```
+   Generate a random password with default length and complexity settings.
 
 ## Contributing
 
-If you'd like to contribute to TryLow, feel free to submit issues or pull requests on the [GitHub repository](https://github.com/your-username/TryLow). Your feedback and contributions are highly appreciated!
+If you'd like to contribute to ChabiGhar, feel free to submit issues or pull requests on the [GitHub repository](https://github.com/your-username/ChabiGhar). Your feedback and contributions are highly appreciated!
+
+## TODOs
+
+- Implement functionality to save passwords with headings for different platforms (e.g., social media).
+- Implement functionality to display a list of saved passwords and allow the user to choose which one to retrieve.
+- Implement functionality to save passwords on the web and provide functions to view, copy, and update passwords.
+- Add beautifying tools like chalk for a better CLI interface.
+  
+Feel free to adjust the instructions or add more details as needed!
