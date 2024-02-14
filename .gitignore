@@ -106,6 +106,7 @@ dist
 /src/helper/encryptionKey.txt
 # Docusaurus cache and generated files
 .docusaurus
+/.github
 
 # Serverless directories
 .serverless/
